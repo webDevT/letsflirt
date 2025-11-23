@@ -23,8 +23,8 @@
 
 
 	<link rel="stylesheet" href="css/style.min.css">
-	<link rel="preload" as="image" href="img/photo1.webp" />
-	<link rel="preload" as="image" href="img/photo2.webp" />
+	<link rel="preload" as="image" href="img/photo1.webp" fetchpriority="high" />
+	<link rel="preload" as="image" href="img/photo2-2.webp" fetchpriority="high" />
 </head>
 <body>
 	<!-- start header -->
@@ -60,7 +60,7 @@
 								Henry
 							</div>
 							<img
-								 src="img/photo1.webp" alt="flag" class="photo1 photo" loading="lazy" fetchpriority="high">
+								 src="img/photo1.webp" alt="flag" class="photo1 photo" fetchpriority="high" decoding="async">
 	
 						</div>
 	
@@ -68,7 +68,7 @@
 							<div class="name-wrapper">
 								Alina
 							</div>
-							<img src="img/photo2-2.webp" alt="photo" class="photo2 photo" loading="lazy" fetchpriority="high">
+							<img src="img/photo2-2.webp" alt="photo" class="photo2 photo" fetchpriority="high" decoding="async">
 						</div>
 					</div>
 	
