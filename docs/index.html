@@ -14,6 +14,9 @@
 <!-- Preload для конкретных woff2-файлов -->
 <link rel="preload" as="font" type="font/woff2" href="https://fonts.gstatic.com/s/ibmplexsans/v16/IBMPlexSans-Regular.woff2" crossorigin>
 <link rel="preload" as="font" type="font/woff2" href="https://fonts.gstatic.com/s/mulish/v12/Mulish-Regular.woff2" crossorigin>
+<link rel="preload" as="image" href="img/photo1.webp" fetchpriority="high">
+	<link rel="preload" as="image" href="img/photo2-2.webp" fetchpriority="high">
+	<link rel="preload" as="style" href="css/style.min.css">
 
 <!-- Основная Google Fonts CSS -->
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
@@ -36,6 +39,7 @@
 		</header>
 		<!-- end header -->
 	
+		<main>
 		<!-- start main screen -->
 		<section class="main-screen">
 			<div class="container">
@@ -56,7 +60,7 @@
 								Henry
 							</div>
 							<img
-								 src="img/photo1.webp" alt="flag" class="photo1 photo" loading="lazy">
+								 src="img/photo1.webp" alt="flag" class="photo1 photo" loading="lazy" fetchpriority="high">
 	
 						</div>
 	
@@ -64,7 +68,7 @@
 							<div class="name-wrapper">
 								Alina
 							</div>
-							<img src="img/photo2-2.webp" alt="photo" class="photo2 photo" loading="lazy">
+							<img src="img/photo2-2.webp" alt="photo" class="photo2 photo" loading="lazy" fetchpriority="high">
 						</div>
 					</div>
 	
@@ -357,7 +361,7 @@
 		<!-- end review section -->
 	
 	
-	
+	</main>
 		<!-- start footer -->
 		<footer class="footer">
 			<div class="container">
